@@ -1,0 +1,12 @@
+{% extends 'vehiculo/base.html' %}
+
+{% block title %}Agregar Vehículo{% endblock %}
+
+{% block content %}
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-dark">Enviar</button>
+</form>
+{% endblock %}
