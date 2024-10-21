@@ -21,7 +21,7 @@ def add_vehiculo(request):
 
 @permission_required('vehiculo.visualizar_catalogo')
 def catalogo_view(request):
-    # Tu lógica para mostrar el catálogo
+    
     pass
 
 
